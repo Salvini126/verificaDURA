@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Room } from '../room.model';
 
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dettagli-stanza.component.css']
 })
 export class DettagliStanzaComponent implements OnInit {
-  
+  @Input() room : Room = undefined!;
   constructor() { }
 
   ngOnInit(): void {

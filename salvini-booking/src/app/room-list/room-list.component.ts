@@ -16,4 +16,5 @@ export class RoomListComponent implements OnInit {
     this.room = room;
     console.log(room)
   }
+  
 }
