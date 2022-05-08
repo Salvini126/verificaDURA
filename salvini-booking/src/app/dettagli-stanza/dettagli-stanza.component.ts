@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { Room } from '../room.model';
+import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-dettagli-stanza',
@@ -7,7 +7,7 @@ import { Room } from '../room.model';
   styleUrls: ['./dettagli-stanza.component.css']
 })
 export class DettagliStanzaComponent implements OnInit {
-  @Input() room : Room = undefined!;
+  
   constructor() { }
 
   ngOnInit(): void {
