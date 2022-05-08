@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { RoomListComponent } from './room-list/room-list.component';
+import { DettagliStanzaComponent } from './dettagli-stanza/dettagli-stanza.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RoomListComponent
+    RoomListComponent,
+    DettagliStanzaComponent
   ],
   imports: [
     BrowserModule,
